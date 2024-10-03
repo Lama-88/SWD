@@ -22,7 +22,7 @@ class LinearSearch {
     }
 
     public static void main(String[] args) {
-        int[] array = { 3, 4, 1, 7, 5 };
+        int[] array = { 2, 4, 1, 9, 8 };
         int length = array.length;
         int target = 4; // Value to search for
         int index = search(array, length, target);
